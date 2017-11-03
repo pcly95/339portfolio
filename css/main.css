@@ -1,0 +1,93 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin:0;
+}
+
+body {
+  margin: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: .2rem;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: .2rem;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  letter-spacing: .2rem;
+  font-size: 1rem;
+}
+
+p {
+  letter-spacing: .05rem;
+  line-height: 1.5rem;
+  max-width: 40rem;
+}
+
+.styleguide-section {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  border-top: .05rem solid #C1C1C0;
+  padding-top: 1rem;
+}
+
+.styleguide-h1 {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: .4rem;
+  font-size: 1.4rem;
+}
+
+.styleguide-h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.heading-font {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.swatch-black {
+  color: white;
+  background-color: #231F20;
+  padding: .5rem;
+  width: 10rem;
+  margin: 1rem;
+}
+
+.swatch-grey {
+  background-color: #C1C1C0;
+  padding: .5rem;
+  width: 10rem;
+  margin: 1rem;
+}
+
+.swatch-white {
+  background-color: #FFFFFF;
+  border: .05rem solid #C1C1C0;
+  padding: .5rem;
+  width: 10rem;
+  margin: 1rem;
+}
+
+.project-component {
+  display: inline-block;
+  background-color: #FFFFFF;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  margin: 1rem;
+  width: 45%;
+  height: 20rem;
+  box-shadow: 1px 3px 10px #C1C1C0;
+}
