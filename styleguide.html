@@ -8,8 +8,9 @@
     <title>Patrick Ly - Style Guide</title>
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
 
   </head>
@@ -17,41 +18,121 @@
   <body>
     <h1 class="styleguide-h1">style guide</h1>
     <section class="styleguide-section">
-      <h2 class="styleguide-h2">fonts:</h2>
+      <h2 class="styleguide-h2">Fonts:</h2>
       <ul>
-        <li class="heading-font">Roboto Mono Black</li>
-        <li>Roboto Thin</li>
+        <li class="heading-font">Roboto Mono</li>
+        <li>Roboto</li>
       </ul>
     </section>
 
     <section class="styleguide-section">
-      <h2 class="styleguide-h2">colour swatches:</h2>
+      <h2 class="styleguide-h2">Colour Swatches:</h2>
       <div class="swatch-black">#231F20</div>
       <div class="swatch-grey">#C1C1C0</div>
       <div class="swatch-white">#FFFFFF</div>
     </section>
 
     <section class="styleguide-section">
-      <h2 class="styleguide-h2">heading levels:</h2>
-      <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
-      <h3>Heading 3</h3>
+      <h2 class="styleguide-h2">Text Elements:</h2>
+      <section class="styleguide-item">
+        <h1 class="styleguide-title">Heading 1</h1>
+        <p class="styleguide-label">css selectors:</p>
+        <p class="styleguide-p"> h1</p>
+        <p class="styleguide-label">code:</p>
+        <code> &lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+        <p class="styleguide-label">rendered element:</p>
+        <h1 class="no-margin">Heading 1</h1>
+      </section>
+
+      <section class="styleguide-item">
+        <h1 class="styleguide-title">Heading 2</h1>
+        <p class="styleguide-label">css selectors:</p>
+        <p class="styleguide-p"> h2</p>
+        <p class="styleguide-label">code:</p>
+        <code> &lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+        <p class="styleguide-label">rendered element:</p>
+        <h2>Heading 2</h2>
+      </section>
+
+      <section class="styleguide-item">
+        <h1 class="styleguide-title">Heading 3</h1>
+        <p class="styleguide-label">css selectors:</p>
+        <p class="styleguide-p"> h3</p>
+        <p class="styleguide-label">code:</p>
+        <code> &lt;h3&gt;Heading 3&lt;/h3&gt;</code>
+        <p class="styleguide-label">rendered element:</p>
+        <h3>Heading 3</h3>
+      </section>
+
+      <section class="styleguide-item">
+        <h1 class="styleguide-title">Paragraph</h1>
+        <p class="styleguide-label">css selectors:</p>
+        <p class="styleguide-p"> p</p>
+        <p class="styleguide-label">code:</p>
+        <code> &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum arcu ut nulla auctor auctor. Pellentesque vitae suscipit lacus. Nullam eu imperdiet massa. Donec quis varius lectus. In lorem enim, feugiat a malesuada sed, imperdiet in lectus. Proin et lorem tempus leo blandit accumsan non vitae nibh. Nullam nec velit ac nunc malesuada facilisis.&lt;/p&gt;</code>
+        <p class="styleguide-label">rendered element:</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum arcu ut nulla auctor auctor. Pellentesque vitae suscipit lacus. Nullam eu imperdiet massa. Donec quis varius lectus. In lorem enim, feugiat a malesuada sed, imperdiet in lectus. Proin et lorem tempus leo blandit accumsan non vitae nibh. Nullam nec velit ac nunc malesuada facilisis.</p>
+      </section>
+
+      <section class="styleguide-item">
+        <h1 class="styleguide-title">List</h1>
+        <p class="styleguide-label">css selectors:</p>
+        <p class="styleguide-p"> ul, div, li</p>
+        <p class="styleguide-label">code:</p>
+        <code>
+          &lt;ul class="sub-content-group"&gt;
+            &lt;div class="sub-content-item"&gt;
+              &lt;li&gt;Item 1&lt;/li&gt;
+              &lt;li&gt;Item 2&lt;/li&gt;
+              &lt;li&gt;Item 3&lt;/li&gt;
+            &lt;/div&gt;
+          &lt;/ul&gt;
+        </code>
+        <p class="styleguide-label">rendered element:</p>
+        <ul class="sub-content-group">
+          <div class="sub-content-item">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </div>
+        </ul>
+      </section>
     </section>
 
     <section class="styleguide-section">
-      <h2 class="styleguide-h2">paragraph:</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum arcu ut nulla auctor auctor. Pellentesque vitae suscipit lacus. Nullam eu imperdiet massa. Donec quis varius lectus. In lorem enim, feugiat a malesuada sed, imperdiet in lectus. Proin et lorem tempus leo blandit accumsan non vitae nibh. Nullam nec velit ac nunc malesuada facilisis.</p>
+      <h2 class="styleguide-h2">Interactive Elements:</h2>
+      <section class="styleguide-item">
+        <h1 class="styleguide-title">Link</h1>
+        <p class="styleguide-label">css selectors:</p>
+        <p class="styleguide-p"> a</p>
+        <p class="styleguide-label">code:</p>
+        <code>
+            &lt;a href="" class="header-item"&gt;Link  &lt;/a&gt;
+        </code>
+        <p class="styleguide-label">rendered element:</p>
+        <a href="" class="header-item">link</a>
+      </section>
     </section>
 
     <section class="styleguide-section">
-      <h2 class="styleguide-h2">project component:</h2>
-      <div class="project-component">
-        <h3>project 1</h3>
-      </div>
-      <div class="project-component">
-        <h3>project 2</h3>
-      </div>
+      <h2 class="styleguide-h2">Combined Elements:</h2>
+      <section class="styleguide-item">
+        <h1 class="styleguide-title">Project Component</h1>
+        <p class="styleguide-label">css selectors:</p>
+        <p class="styleguide-p"> a, h3, p</p>
+        <p class="styleguide-label">code:</p>
+        <code>
+            &lt;a href="" class="project-component-1"&gt;
+              &lt;h3&gt;project 1&lt;/h3&gt;
+              &lt;p class="project-subtitle"&gt;category 1, category 2, category 3&lt;/p&gt;
+            &lt;/a>
+        </code>
+        <p class="styleguide-label">rendered element:</p>
+        <a href="" class="project-component-1">
+          <h3>project 1</h3>
+          <p class="project-subtitle">category 1, category 2, category 3</p>
+        </a>
+      </section>
     </section>
-
   </body>
 </html>
