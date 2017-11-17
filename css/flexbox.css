@@ -1,0 +1,16 @@
+.sub-content-group {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  margin-bottom: 4rem;
+}
+
+.sub-content-item {
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-basis: 18rem;
+  margin-right: 1rem;
+}
