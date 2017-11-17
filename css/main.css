@@ -19,7 +19,7 @@ section {
 
 h1 {
   font-family: 'Roboto Mono', monospace;
-  letter-spacing: .2rem;
+  letter-spacing: .15rem;
   font-size: 1.5rem;
   margin-left: 1rem;
 }
@@ -62,7 +62,10 @@ ul {
   letter-spacing: .05rem;
   line-height: 1.7rem;
   max-width: 40rem;
-  margin-bottom: 4rem;
+}
+
+li {
+  margin-bottom: .5rem;
 }
 
 em {
@@ -79,6 +82,7 @@ em {
   font-weight: 400;
   letter-spacing: .1rem;
   font-size: 1rem;
+  margin-right: 1rem;
 }
 
 .header-item-alt {
@@ -86,7 +90,17 @@ em {
   font-weight: 400;
   letter-spacing: .1rem;
   font-size: 1rem;
+  margin-right: 1rem;
   color: white;
+}
+
+.about-link {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  font-size: 1rem;
+  color: white;
+  margin-left: 1rem;
 }
 
 .alternate-h1 {
@@ -105,7 +119,7 @@ em {
 
 .intro {
   margin-top: 22%;
-  max-width: 45rem;
+  max-width: 40rem;
 }
 
 .main-section {
@@ -162,8 +176,8 @@ em {
 }
 
 .detail-intro {
-  font-size: 1.8rem;
-  line-height: 2.6rem;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
 }
 
 .main-content {
@@ -184,8 +198,8 @@ em {
   }
 
   .project-title {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -211,24 +225,67 @@ em {
 
 /*STYLE GUIDE STYLING*/
 .styleguide-section {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
   border-top: .05rem solid #C1C1C0;
   padding-top: 1rem;
 }
 
+.styleguide-item {
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-basis: 17rem;
+  margin-right: 1rem;
+}
+
 .styleguide-h1 {
   font-family: 'Roboto Mono', monospace;
   letter-spacing: .4rem;
   font-size: 1.4rem;
+  margin: 2rem;
+}
+
+.styleguide-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 0;
+  margin-bottom: 1rem;
+}
+
+.no-margin {
+  margin-left: 0;
 }
 
 .styleguide-h2 {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400;
-  letter-spacing: .1rem;
-  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  flex-basis: 100%;
+  font-weight: 300;
+  margin-left: 0;
   margin-bottom: 1rem;
+}
+
+.styleguide-label {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: .8rem;
+  color: grey;
+}
+
+.styleguide-p {
+  margin-bottom: 1rem;
+}
+
+code {
+  background-color: #C1C1C0;
+  padding: .2rem;
 }
 
 .heading-font {
