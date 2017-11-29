@@ -268,6 +268,7 @@ em {
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
+  border-style: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -328,6 +329,9 @@ em {
 }
 
 .no-margin {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: .15rem;
+  font-size: 1.5rem;
   margin-left: 0;
 }
 
