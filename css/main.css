@@ -277,7 +277,21 @@ em {
 
 
 
-/*STYLE GUIDE STYLING*/
+/*STYLE GUIDE + CITATION STYLING*/
+.citation-section {
+  display: block;
+
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  border-top: .05rem solid #C1C1C0;
+  padding-top: 1rem;
+}
+
+.citation-p {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
 .styleguide-section {
   display: -ms-flex;
   display: flex;
