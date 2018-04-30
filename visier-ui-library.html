@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patrick Ly - Visier UI Library</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="header-nav">
+      <a href="index.html" class="nav-item">home</a>
+      <a href="about.html" class="nav-item">about</a>
+    </nav>
+
+    <img class="full-bleed" src="images/library-splash.png" alt="image of Visier Sketch UI library on a Macbook Pro"/>
+
+    <section class="main-content">
+      <h1 class="project-title">visier ui library</h1>
+      <p class="detail-intro">A Sketch UI library to help fix inconsistencies in the visual design and interaction states of Visier’s UI components. The goal is to increase overall productivity within our design team and to standardize component specifications for developers.</p>
+
+      <div class="sub-content-group">
+        <ul class="sub-content-item">
+          <li><em>Roles:</em> UI Design, Visual Design</li>
+          <li><em>Tools:</em> Sketch</li>
+          <li><em>Year:</em> 2018</li>
+        </ul>
+        <ul class="sub-content-item">
+          <li><em>Context:</em> Internship (4 months)</li>
+          <li><em>Team:</em> Chuiee Yang, Aileen Wang</li>
+        </ul>
+      </div>
+
+      <h2>problem</h2>
+      <p>Visier’s design team lacked a set of consistent components to share and use. Our team was progressively migrating from using Illustrator to Sketch as our primary design software, and a consistent set of UI components was needed for Sketch. As Visier grows as a company, a UI component library was crucial to ensure designers work with the latest iteration of components.</p>
+
+      <h2>design process</h2>
+
+      <h3>research + exploration</h3>
+      <p>When I was first involved with this ongoing project, it was at an early stage where it was relatively new to everyone on the team. This gave me the opportunity to start from ground up, meaning it was important to look into existing design systems and UI libraries established by other companies (such as Shopify Polaris, IBM’s Carbon Design System, and Google’s Material Design) and to see how their components are structured; in particular the Sketch UI components. Apart from researching other companies’ UI libraries, I looked into the best practices for using Sketch and making a UI library.</p>
+
+      <img class="within-content-shadow" src="images/research.png" alt="image of Shopify Polaris Sketch UI library"/>
+
+      <h3>structure of components</h3>
+      <p>It was important to have a baseline structure for our UI components before executing the details; this ensures that the designers on our team can easily locate the components and that they are consistently and logically grouped together. One of the biggest challenges I had to overcome is not being fully aware of all of the complex UI components that exist in our product. Apart from being assigned certain components to be built in Sketch, I actively explored the current build of our product to make sure I have a relatively better understanding of all the components that exists, how they relate to each other, and how I can group them together.</p>
+
+      <img class="within-content-shadow" src="images/component-structure.png" alt="image of UI component structure on Sketch"/>
+
+      <h3>execution</h3>
+      <p>When I executed each individual UI component, I thought of how to make it easy for designers to use each one. It was a challenge to find the right balance between modular and preset components; if a component was too flexible, users would have trouble figuring out whether or not a component can be used in a certain section of our product. If a component was too fixed into a preset state, users would find it limiting when it comes to configuring a component to their needs.</p>
+
+      <img class="within-content-shadow" src="images/execution.png" alt="image of a UI component in detail on Sketch"/>
+
+      <h3>peer feedback + user testing</h3>
+      <p>What helped me progress through my work was the feedback I received from my supervisor and peers as well as the informal user testing sessions from various individuals on my design team. The feedback I received either helped relieved doubts I had on design decisions I made or helped provide insight as to how to approach building out a specific component. For example, when I wasn’t sure whether or not the hover states of two different components should be the same, I brought up the question to my supervisor. We had a discussion about it, and resolved that they should follow the same pattern.</p>
+
+      <img class="within-content-shadow" src="images/feedback.png" alt="image of feedback comments on the hover states for different UI components"/>
+
+      <h2>solution</h2>
+
+      <h3>building templates</h3>
+      <p>To make the UI library even easier to use for the designers on our team, I made a template Sketch file (or sticker sheet). Ideally, this would give our team a one-stop-shop to pull any layout they need to communicate their user workflows or concepts. This means designers do not have to spend extra time worrying about the layout and the spacing between each component.</p>
+
+      <img class="within-content-shadow" src="images/template.png" alt="image of the template file on Sketch"/>
+
+      <h3>maintaining + editing components</h3>
+      <p class="double-paragraph">Apart from making the Sketch UI library easy to use for our design team, it was important to make sure it was easy to make changes and edits to the components. The approach was simple (in concept): build each component from ground up; this way, the base components could be easily edited and reflected into the combined component. </p>
+
+      <p>For example, a search bar is made up of several base components: a container with several states (default, hover, and focused), text (placeholder and input), two icons (search and close), and a blinking cursor. The components were made into symbols then combined into a new symbol (the search bar), meaning all edits would be made through the base components. This is useful when considering the different variations of the search bar; if the search icon needed to be updated, only the base component for the icon would need to be edited in order for it to reflect into the different variations.</p>
+
+      <img class="within-content-shadow" src="images/editing.png" alt="image of editing structure on Sketch"/>
+
+      <h2>reflection</h2>
+      <p>This was the first time I’ve ever built a UI component library, and although it was a daunting task, I’ve learned much about how components grow at various levels depending on the different combinations of components, and how it could be a challenge to maintain and unify the whole product consistently. Although this was an ongoing project, I believe my work helped pave the way for a growing company to ensure the consistency of components, allowing designers and potentially developers to work more efficiently.</p>
+
+      <a href="help-for-students.html" class="nav-item">next project: help for students &rarr;</a>
+    </section>
+
+  </body>
+</html>
